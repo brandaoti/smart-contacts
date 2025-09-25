@@ -3,7 +3,7 @@
 # ======================================
 
 # Arquivos de compilação
-/build/
+app/build/
 /out/
 /classes/
 /bin/
