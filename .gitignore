@@ -1,15 +1,40 @@
+# ======================================
+# 🚀 Gitignore para Kotlin + Gradle + IntelliJ/Android Studio
+# ======================================
+
+# Arquivos de compilação
+/build/
+/out/
+/classes/
+/bin/
+
+# Gradle
+.gradle/
+/.gradle-cache/
+/gradle-app.setting
+!gradle-wrapper.jar  # mantém o wrapper no repo
+gradle-app.setting
+gradle-app.properties
+
+# IntelliJ / Android Studio
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+*.iws
+*.ipr
+
+# Logs e temporários
+*.log
+*.tmp
+*.swp
+*.lock
+
+# Arquivos de sistema
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+Thumbs.db
+
+# Kotlin/Java específicos
+*.class
+*.kotlin_module
+*.jar
+*.war
+*.ear
